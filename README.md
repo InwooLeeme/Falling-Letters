@@ -6,6 +6,7 @@ Make falling letters animation effect using html, css and Vanilla javascript.
 
 - [x] Make html file.
 - [x] Add some styling.
-- [ ] Make main function(in this case, falling letters).
+- [x] Make main function(in this case, falling letters).
 - [x] Make alphabet array.
+- [x] Generate random position in window.
 - [ ] when stop falling remove the letters.
