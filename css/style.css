@@ -11,6 +11,6 @@ div {
 
 @keyframes fall {
   to {
-    transform: translateY(100vh);
+    transform: translateY(96vh);
   }
 }
