@@ -10,6 +10,10 @@ function fallingLetters(){
     content.innerHTML = alphabetArray[letterNumber];
     content.style.right = Math.random() * window.innerWidth + `px`;
     body.appendChild(content);
+
+    setTimeout(() => {
+        content.remove();
+    },5000);
 }
 
 function genRandom(){
