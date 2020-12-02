@@ -1,5 +1,5 @@
 const body = document.querySelector('body');
-setInterval(fallingLetters, 50);
+setInterval(fallingLetters, 1000);
 let alphabetUpperArray = 'abcdefghijklmnopqrstuvwxyz'.toUpperCase();
 let alphabetArray = alphabetUpperArray.split('');
 

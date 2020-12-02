@@ -10,8 +10,48 @@ div {
   position: absolute;
 }
 
+.first-bar,
+.second-bar {
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+  padding: 2px;
+  width: 50%;
+  height: 2px;
+  border-radius: 0px 5px 5px 0px;
+  visibility: hidden;
+}
+
+.first-bar {
+  left: 0px;
+  animation: leftSwipe 2s linear /* infinite */;
+  transform-origin: left;
+}
+
+.second-bar {
+  right: 0px;
+  animation: rightSwipe 2s linear /* infinite */;
+  transform-origin: right;
+}
+
 @keyframes fall {
   to {
     transform: translateY(96vh);
+  }
+}
+
+@keyframes leftSwipe {
+  to {
+    left: 5px;
+    visibility: visible;
+    transform: rotate(-90deg);
+  }
+}
+
+@keyframes rightSwipe {
+  to {
+    right: 5px;
+    visibility: visible;
+    transform: rotate(90deg);
   }
 }

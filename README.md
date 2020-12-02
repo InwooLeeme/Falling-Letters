@@ -10,3 +10,6 @@ Make falling letters animation effect using html, css and Vanilla javascript.
 - [x] Make alphabet array.
 - [x] Generate random position in window.
 - [x] when stop falling remove the letters.
+- [x] Make two wiper in window each side.
+- [x] Add the wiper animation.
+- [ ]
